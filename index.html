@@ -47,6 +47,12 @@
         }
 </style>    
 <body>
+    <button onclick="toggleSidebar()" style="position: fixed; top: 10px; left: 10px; font-size: 24px;">≡</button>
+    <div class="sidebar" id="sidebar">
+        <button onclick="OwnerWeb()">Owner</button>
+        <button onclick="Donasi()">Donasi</button>
+        <button onclick="toggleSidebar()">Cek Khodam</button>
+    </div>
     <div class="max-w-md w-full bg-white p-8 rounded shadow-lg m-auto mt-48">
         <h2 class="text-2xl font-bold mb-8 text-center">Cek Khodam</h2>
         <form id="khodamForm" action="#" method="POST">
